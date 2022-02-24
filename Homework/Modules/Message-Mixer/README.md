@@ -1,3 +1,3 @@
 # Message-Mixer
 
-#![encrypter](super-encoder.gif)
+#![encrypter](assets/super-encoder.gif)
