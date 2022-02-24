@@ -2,6 +2,7 @@
 import { getDataByCompany } from "./salaryData.mjs";
 import { getDataByRole } from "./salaryData.mjs";
 import salaryData from "./salaryData.mjs";
+import { formatNumber } from "./utilities.js";
 // Replace the empty array with the appropriate imported function/value
 export const getAverageSalaryByRole = (role) => {
   const roleData = getDataByRole(role);

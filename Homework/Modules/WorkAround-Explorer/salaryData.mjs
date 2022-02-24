@@ -32,7 +32,6 @@ export const getDataByRole = (role) => {
 
 export const getDataByCompany = (company) => {
   // console.log(salaryData[1].company)
-  console.log(salaryData.filter((obj) => obj.company === company))
   
   return salaryData.filter((obj) => obj.company === company);
 };
